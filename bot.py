@@ -6,7 +6,7 @@ import handlers
 from loader import dp, bot
 from utils.set_bot_commands import set_default_commands
 from handlers.users.send_car_data import send_car_data
-from config.config import HEROKU_APP_NAME, WEBHOOK_HOST, WEBHOOK_PATH, WEBHOOK_URL, WEBAPP_HOST, WEBAPP_PORT
+from config.config import WEBHOOK_PATH, WEBHOOK_URL, WEBAPP_HOST, WEBAPP_PORT
 
 
 async def on_startup(dispatcher):
